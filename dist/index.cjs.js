@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.formatNumber=function(e){if(null==e)return"0";e=e.toString();const[t,r]=e.split("."),s=t.startsWith("-");let i=(s?t.substring(1):t).split("").reverse().join(""),n=[];for(let e=0;e<i.length;e+=3)n.push(i.substring(e,e+3));let o=n.map((e=>e.split("").reverse().join(""))).reverse().join(".");return s&&(o="-"+o),r&&(o+=","+r),o};
+//# sourceMappingURL=index.cjs.js.map
