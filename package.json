@@ -31,5 +31,8 @@
     "prices",
     "currency",
     "number formatting"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }  
 }
