@@ -1,0 +1,35 @@
+{
+  "name": "nums-formatter",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "description": "Paquete que tiene funciones para formatear números a strings con separador de miles, precios, decimales, etc.",
+  "repository": "https://github.com/Jose-Miguel7/nums-formatter.git",
+  "author": "Jose Miguel <josemiguel.sandoval20@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "numbers",
+    "format",
+    "formatter",
+    "thousands separator",
+    "prices",
+    "currency",
+    "number formatting"
+  ]
+}
