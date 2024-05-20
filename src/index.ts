@@ -1,1 +1,1 @@
-export {formatNumber} from './format-number';
+export {default as formatNumber} from './format-number';

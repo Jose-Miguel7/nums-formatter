@@ -8,7 +8,7 @@
     "dist"
   ],
   "description": "Paquete que tiene funciones para formatear números a strings con separador de miles, precios, decimales, etc.",
-  "repository": "https://github.com/Jose-Miguel7/nums-formatter.git",
+  "repository": "git+https://github.com/Jose-Miguel7/nums-formatter.git",
   "author": "Jose Miguel <josemiguel.sandoval20@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -31,8 +31,5 @@
     "prices",
     "currency",
     "number formatting"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  ]
 }

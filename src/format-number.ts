@@ -1,4 +1,4 @@
-export function formatNumber(num: string | number): string {
+export default function formatNumber(num: string | number): string {
     if (num === null || num === undefined) {
         return '0';
     }
